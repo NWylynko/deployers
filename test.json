@@ -1,5 +1,10 @@
 {
   "repo": "https://github.com/NWylynko/test",
   "name": "test",
-  "trigger": "master"
+  "trigger": "master",
+  "install": "yarn",
+  "new": "pm2 start --name test index.js",
+  "start": "pm2 start test",
+  "stop": "pm2 stop test",
+  "restart": "pm2 restart test"
 }
