@@ -1,0 +1,10 @@
+{
+  "repo": "https://github.com/NWylynko/firebaseStats",
+  "name": "firebaseStats",
+  "trigger": "master",
+  "install": "yarn",
+  "create": "pm2 start --name firebaseStats index.js",
+  "start": "pm2 start firebaseStats",
+  "stop": "pm2 stop firebaseStats",
+  "restart": "pm2 restart firebaseStats"
+}
