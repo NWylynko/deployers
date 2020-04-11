@@ -3,7 +3,7 @@
   "name": "connect420-server",
   "trigger": "master",
   "install": "yarn",
-  "new": "pm2 start --name c420 index.js",
+  "create": "pm2 start --name c420 index.js",
   "start": "pm2 start c420",
   "stop": "pm2 stop c420",
   "restart": "pm2 restart c420"
